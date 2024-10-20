@@ -5,3 +5,6 @@ let altura = prompt("ingrese altura");
 //convertir los valores en numero
 base = parseFloat(base);
 altura = parseFloat(altura);
+
+//calcular base de triangulo (formula: base * altura / 2)
+let area = (base * altura)/ 2;
