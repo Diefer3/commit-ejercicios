@@ -6,4 +6,12 @@ let exponente = prompt("ingresa el exponente");
 base = parseFloat(base);
 exponente = parseFloat(exponente);
 
+//calcular la pontencia utilizando math.pow()
+let resultado = math.pow (base, exponente);
+
+//mostrar el resultado concatenedo en el mensaje
+document.write ("el resultado obtenido es"+ resultado);
+
+
+
 
