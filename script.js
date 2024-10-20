@@ -7,3 +7,6 @@ let nota3 = prompt("ingresar nota del tercer periodo");
 nota1 = parseFloat(nota1);
 nota2 = parseFloat(nota2);
 nota3 = parseFloat(nota3);
+
+//calcular promedio//
+let promedio = (nota1+nota2+nota3)/3;
