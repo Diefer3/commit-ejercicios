@@ -1,12 +1,3 @@
-//pedir notas de los tres periodos"
-let nota1 = prompt("ingrese nota del primer periodo");
-let nota2 = prompt("ingresar nota del segundo periodo");
-let nota3 = prompt("ingresar nota del tercer periodo");
-
-//convertir las notas ingresadas en numeros (ya que prompt devuelve texto)
-nota1 = parseFloat(nota1);
-nota2 = parseFloat(nota2);
-nota3 = parseFloat(nota3);
-
-//calcular promedio//
-let promedio = (nota1+nota2+nota3)/3;
+/pedir al usuario que ingrese la base y la altura del triangulo//
+let base = prompt("ingrese la base del triangulo");
+let altura = prompt("ingrese altura");
