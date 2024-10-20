@@ -1,16 +1,9 @@
-//pedimnos al usuario que coloque el precio de la prenda//
-let precio = parseFloat(prompt('ingrese el precio de la prenda;'));
+//pedir notas de los tres periodos"
+let nota1 = prompt("ingrese nota del primer periodo");
+let nota2 = prompt("ingresar nota del segundo periodo");
+let nota3 = prompt("ingresar nota del tercer periodo");
 
-// solicitar al usuario el porcentaje de descuento//
-let porcentajedescuento = parseFloat(prompt('ingrese el porcentaje del descuento;'))
-
-// calcular el monto del descuento//
-let descuento = (precio*porcentajedescuento)/ 100;
-
-// calcular el precio final//
-let preciofinal = precio-descuento;
-
-// mostrar el resultado en pagina// // tofxed reodea el numero a decimales
-document.write("<h1>precio original: $"+ precio.toFixed(2)+ "<h1>");
-document.write("<h1>descuento aplicado: $"+ descuento.toFixed(2) +"("+ porcentajedescuento + " %)</h1");
-document.write("<h1>precio final"+ preciofinal.toFixed(2)+ "</h1");
+//convertir las notas ingresadas en numeros (ya que prompt devuelve texto)
+nota1 = parseFloat(nota1);
+nota2 = parseFloat(nota2);
+nota3 = parseFloat(nota3);
