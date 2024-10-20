@@ -8,3 +8,6 @@ altura = parseFloat(altura);
 
 //calcular base de triangulo (formula: base * altura / 2)
 let area = (base * altura)/ 2;
+
+//mostrar el resultado
+document.write ("el area del triangulo es " + area.toFixed(2));
